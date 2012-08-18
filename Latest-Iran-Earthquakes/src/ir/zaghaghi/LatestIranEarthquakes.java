@@ -46,6 +46,7 @@ public class LatestIranEarthquakes extends PApplet {
     public void setup() {
         System.setProperty("java.net.preferIPv4Stack", "true");
         size(900, 600, JAVA2D);
+        frame.setTitle("Iran Earthquake Visualizer");
         frameRate(20);
         Ani.init(this);
         dy = footerHeight;
